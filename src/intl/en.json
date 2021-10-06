@@ -1,0 +1,102 @@
+{
+  "header.products": "Products",
+  "header.support": "Support",
+
+  "main.comprehensive": "Comprehensive",
+  "main.crypto_api": "crypto API",
+  "main.description": "Get 100% custom-built and unique terabytes of processed on-chain, social, github and fundamental data sets",
+  "main.get_access": "Get access",
+  "main.documentation": "Documentation",
+  "main.data": "data gathered",
+
+  "header.pricing": "Pricing",
+
+  "header.products": "Santiment products",
+  "header.santiment.goto": "Go to Santiment.net",
+
+  "header.product.sanbase": "Behavior analysis & monitoring platform for 1000+ crypto assets",
+  "header.product.sheets": "Google Spreadsheets plugin for importing Santiment data",
+  "header.product.neuro": "The most comprehensive crypto API on the market",
+
+
+  "testimonials.title.top": "What people",
+  "testimonials.title.bottom": "are saying",
+
+  "testimonials.paolo.name": "Paolo Ardoino",
+  "testimonials.paolo.position": "CTO at Bitfinex",
+  "testimonials.paolo.text": "SANapi is one of the most comprehensive crypto APIs on the market. For us, it is incredibly easy to fetch various data sets like on-chain, social media and development info directly to Bitfinex through their unified API and across different blockchains. The Santiment team has worked hard on creating a stable, reliable and all-inclusive data source for crypto, and they’ve more than delivered.",
+
+  "testimonials.pramesh.name": "Pramesh Tyagi",
+  "testimonials.pramesh.position": "Director at ShillazTech",
+  "testimonials.pramesh.text": "After switching from stock trading to crypto, I realized that on-chain data of any crypto asset provides vital information about market participants beyond OHLCV. Using a combination of pricing and blockchain data via Santiment’s API, I was quickly able to develop hybrid trade signals that have proven highly reliable, effective and - most importantly - profitable.",
+
+  "testimonials.yan.name": "Jan Smirny",
+  "testimonials.yan.position": "Data Scientist",
+  "testimonials.yan.text": "I work with both the Sanpy python module and the ‘naked’ SAN API since both have their advantages. The GraphiQL API is great if you want very specific data for your research or pipeline implementations. For quick and easy data access for my research, the sanpy module is the place to go because (after the import) it is literally one line of code to get the data. It doesn’t get easier than that!",
+
+  "faq.title": "Frequently asked questions",
+
+  "ready.title": "Ready to get started?",
+  "ready.text.top": "Click below to access the Santiment API or join the Discord",
+  "ready.text.bottom": "channel to share your solutions with the world",
+  "ready.btn": "Get access",
+
+  "footer.about": "About",
+  "footer.contact": "Contact us",
+
+  "footer.terms": "Terms",
+  "footer.privacy": "Privacy",
+  "footer.rights": "© 2020 Santiment",
+
+  "cta.sign_up": "Sign up",
+  "cta.upgrade_now": "Upgrade now",
+  "cta.your_plan": "Your current plan",
+  "cta.default_plan": "Default plan",
+  "cta.change_plan": "Change to this plan",
+  "cta.contact": "Your current plan",
+
+  "sheets.favorites": "Favorites",
+  "tooltip.ethereum": "Ethereum",
+
+  "main.text": "Stable, reliable, all-inclusive source of targeted intelligence for Ethereum and 700+ ERC-20 tokens. Get instant free access to all Santiment products for 2 weeks.",
+
+  "info.buidl": "Culture of BUIDLers",
+  "info.buidl.text": "Santiment is for blockchain developers and software engineers who want high quality raw data about cryptocurrency markets. Help us change the world by building awesome crypto apps.",
+
+  "info.products": "Products",
+  "info.products.text": "See the growth of Ethereum, ERC-20 tokens... and even other major blockchains like BTC and EOS. Use a variety of ways to see and use the data.",
+
+  "products.title": "Santiment data in action",
+
+  "desc.graphs.product":"Sangraphs",
+  "desc.graphs.title":"DeFi/MakerDAO Project",
+  "desc.graphs.text":"See examples of specialized data in action for one of the hottest projects in crypto. Santiment shows the full picture — from on-chain usage to social volume to revealing financial statistics.",
+  "desc.graphs.link":"Explore MakerDAO on Sangraphs",
+
+  "desc.trends.product":"Sanbase, SanAPI",
+  "desc.trends.title":"Social/Emerging Trends Study",
+  "desc.trends.text":"Spot tops and bottoms via swings in crowd mood with our unique emerging trends metrics. Spam — filtered and scanned over hundreds of channels for real content inside real conversations.",
+  "desc.trends.link":"Try Social Trends on Sanbase",
+
+  "desc.sheets.product":"Sansheets",
+  "desc.sheets.title":"Powerful Sheets Templates",
+  "desc.sheets.text":"For spreadsheet developers and fans. Pull Santiment data into your Google sheets with our Sansheets add-on. Track tokens you’re interested in, evaluate risk and spot investment opportunities.",
+  "desc.sheets.link":"Learn more about Sansheets",
+
+  "desc.api.title":"MVRV, Dev Activity, 125+ metrics",
+  "desc.api.text":"Leverage visualizations and signals on Sanbase, or develop your own hybrid indicators from the vast suite of onchain, social, project and fundamental metrics.",
+  "desc.api.link":"Sanbase",
+
+  "discount.title": "2 weeks trial",
+  "discount.text": "Get instant free access to all Santiment products for 2 weeks.",
+  "discount.placeholder": "Write your email here",
+  "discount.btn": "Get free trial",
+
+  "products.sanbase": "Sanbase",
+  "products.sheets": "Sansheets",
+  "products.graphs": "Sangraphs",
+  "products.neuro": "Santiment API",
+
+  "links.neuro": "https://neuro.santiment.net",
+  "links.sheets": "https://sheets.santiment.net"
+}

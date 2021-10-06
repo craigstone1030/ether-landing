@@ -1,0 +1,74 @@
+@import '~@santiment-network/ui/mixins';
+@import '~@santiment-network/ui/variables';
+
+.wrapper {
+  padding: 80px 15px;
+  max-width: none;
+  color: $white;
+  text-align: center;
+  background: $cloud-burst;
+
+  @include responsive('desktop', 'laptop') {
+    padding: 80px 0;
+  }
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  max-width: 450px;
+  margin: 42px auto 10px;
+  font-weight: 400;
+  color: $casper;
+
+  @include responsive('desktop', 'laptop') {
+    margin: 26px auto 12px;
+    color: $white;
+  }
+}
+
+.form {
+  @include responsive('desktop', 'laptop') {
+    max-width: 395px;
+    margin: 0 auto;
+    border: 1px solid var(--porcelain);
+    border-radius: 4px;
+    background: $white;
+    display: flex;
+    position: relative;
+  }
+}
+
+.input {
+  height: 46px;
+
+  @include responsive('desktop', 'laptop') {
+    border: none;
+    height: 40px;
+  }
+}
+
+.btn {
+  height: 46px;
+  margin: 30px 0 0;
+  width: 100%;
+  justify-content: center;
+
+  @include responsive('desktop', 'laptop') {
+    margin: 0;
+    width: auto;
+    height: 32px !important;
+    position: absolute !important;
+    right: 4px;
+    top: 4px;
+  }
+}
+
+
+.form {
+  max-width: 315px;
+  margin: 0 auto;
+}

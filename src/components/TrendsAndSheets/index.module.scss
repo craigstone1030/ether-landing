@@ -1,0 +1,30 @@
+@import '~@santiment-network/ui/mixins';
+
+.wrapper {
+  margin: 0;
+  background: var(--athens);
+  padding: 100px 0 80px;
+  max-width: none;
+
+  @include responsive('tablet', 'phone', 'phone-xs') {
+    padding: 60px 0;
+  }
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @include responsive('desktop') {
+    padding: initial;
+  }
+}
+
+.trends {
+  margin-bottom: 80px;
+}
+
+.img {
+  margin: -14px;
+}

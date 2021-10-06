@@ -1,0 +1,106 @@
+{
+  "header.products": "プロダクト",
+  "header.support": "サポート",
+
+  "header.products": "Santiment製品",
+  "header.santiment.goto": "Santiment.netにアクセス",
+
+  "header.product.sanbase": "1000以上の暗号資産の動作分析および監視プラットフォーム",
+  "header.product.sheets": "SantimentデータをインポートするためのGoogle Spreadsheetsプラグイン",
+  "header.product.neuro": "市場で最も包括的な暗号API",
+
+
+  "main.comprehensive": "多機能",
+  "main.crypto_api": "暗号資産 API",
+  "main.description": "100% カスタマイズされたオンチェーン、ソーシャル、Github、ファンダメンタルデータを活用しましょう。",
+  "main.get_access": "アクセスする",
+  "main.documentation": "ドキュメント ",
+  "main.data": "データ収集",
+
+  "plans.details.hide": "Hide feature table",
+  "plans.details.expand": "全ての機能を見る",
+
+  "testimonials.title.top": "利用者からの",
+  "testimonials.title.bottom": "コメント",
+
+  "faq.title": "よくある質問",
+
+  "ready.title": "さあ始めましょう！",
+  "ready.text.top": "下記リンクより、Santiment API アクセスや、Discord チャンネル",
+  "ready.text.bottom": "をご利用いただけます。",
+  "ready.btn": "をご利用いただけます。",
+
+  "footer.about": "Santimentについて",
+  "footer.contact": "お問いあわせ先",
+
+  "footer.terms": "契約条件",
+  "footer.privacy": "プライバシー",
+  "footer.rights": "© 2019 Santiment, Inc. 無断複写・転載を禁じます。",
+
+  "cta.sign_up": "サインアップ",
+  "cta.upgrade_now": "今すぐアップグレード",
+  "cta.your_plan": "現在の計画",
+  "cta.default_plan": "基本プラン",
+  "cta.change_plan": "このプランへの変更",
+  "cta.contact": "お問い合わせ先",
+
+  "payment.close": "閉じる",
+  "payment.confirm": "お支払",
+
+  "testimonials.paolo.name": "パオロ・アンドリノ",
+  "testimonials.paolo.position": "Bitfinex 最高技術責任者",
+  "testimonials.paolo.text": "SANapiは、暗号資産業界で最も使いやすいAPIです。オンチェーン、ソーシャルメディア、開発情報などのさまざまなデータセットをAPIより、さまざまなブロックチェーンを通じてBitfinexより簡単にとり込むことができます。Santiment は、暗号資産のための安定した信頼性の高い包括的なデータソースをつくることに力を注いできましたが、それらは非常にすぐれたものです。",
+
+  "testimonials.pramesh.name": "プラメシュ・ティアギ",
+  "testimonials.pramesh.position": "ShillazTech 取締役",
+  "testimonials.pramesh.text": "株式から暗号資産トレードに移行してからは、暗号資産のオンチェーンデータが、市場参加者にとって、「OHLCV」（始値・高値・安値・終値）以上に重要な情報だということに気づきました。Santiment APIで価格とブロックチェーンデータの組み合わせを活用することで、非常に有効で、そして利益を生むトレードシグナルを作ることができました。",
+
+  "testimonials.yan.name": "ヤン・スミルニー",
+  "testimonials.yan.position": "データサイエンティスト",
+  "testimonials.yan.text": "それぞれ異なるメリットがあるので、Sanpy パイソンモジュールと無加工のSAN APIを使っています。データリサーチやパイプライン実行のために特定のデータが必要なら、GraphiQL APIが非常に便利です。リサーチのために簡単で素早くデータにアクセスするなら、Sanpy モジュールが便利です。データを取得するのに(インポートの後）文字通りひとつのラインコードだからです。非常にシンプルです。",
+
+  "sheets.favorites": "お気に入り",
+  "tooltip.ethereum": "イーサリアム",
+
+  "main.text": "イーサリアムと700以上のERC-20トークンの充実した総合プラットフォームです。すべてのSantiment製品を2週間無料でお試しいただけます。",
+
+  "info.buidl": "開発者やエンジニアの方々に",
+  "info.buidl.text": "Santimentは、仮想通貨の高品質生データが必要なブロックチェーンディベロッパーやソフトウエアエンジニアにご利用いただけます。暗号資産アプリケーションの作成にご活用ください。",
+
+  "info.products": "プロダクト",
+  "info.products.text": "BTCやEOSはもとより、イーサリアム、ERC-20 トークンなどさまざまなコインの情報が得られます。さまざまな角度からデータをチェックし活用しましょう。",
+
+  "products.title": "データの活用",
+
+  "desc.graphs.product":"SANグラフ",
+  "desc.graphs.title":"DeFi/MakerDAO プロジェクト",
+  "desc.graphs.text":"もっとも注目を浴びているプロジェクトの動きを例にとってみてみましょう。オンチェーンの利用からソーシャルボリューム、統計など当社のデータで全体像がつかむことができます。",
+  "desc.graphs.link":"SANグラフでMakerDAO についてもっと知る",
+
+  "desc.trends.product":"Sanベース, SanAPI",
+  "desc.trends.title":"ソーシャル/上昇トレンド",
+  "desc.trends.text":"大衆心理を観察して、最高値や底値、急上昇トレンドをとらえましょう。より正確な情報をつかむため、スパムなどのノイズは取り除きます。",
+  "desc.trends.link":"SANベースでソーシャルトレンドをつかむ",
+
+  "desc.sheets.product":"SANシート",
+  "desc.sheets.title":"多様なスプレッドシートテンプレート",
+  "desc.sheets.text":"スプレッドシートをよく活用される開発者の方々向けです。SANシードアドオンを活用して、あなたのGoogleシートにSantimentデータを取り込みましょう。気になるトークンを追跡し、リスクを考え投資のチャンスをつかみましょう。",
+  "desc.sheets.link":"SAＮシートについてもっと知る",
+
+  "desc.api.title":"MVRV, ディベロッパーアクティビティ, 125以上の指標",
+  "desc.api.text":"SANベースでシグナルをビジュアル化したり、オンチェーン、ソーシャル、プロジェクト、ファンダメンタルメトリックを活用してご自身のシグナルを開発しましょう。",
+  "desc.api.link":"Sanベース",
+
+  "discount.title": "2週間トライアル",
+  "discount.text": "すべてのSantiment製品を2週間無料でお試しいただけます。",
+  "discount.placeholder": "メールアドレス ",
+  "discount.btn": "フリートライアルを試す",
+
+  "products.sanbase": "SANベース",
+  "products.sheets": "SANシート",
+  "products.graphs": "SANグラフ",
+  "products.neuro": "SAN API",
+
+  "links.neuro": "https://neuro.santiment.net/ja",
+  "links.sheets": "https://sheets.santiment.net/ja"
+}

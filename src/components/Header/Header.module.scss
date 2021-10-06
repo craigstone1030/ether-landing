@@ -1,0 +1,65 @@
+@import '~@santiment-network/ui/mixins.scss';
+@import '~@santiment-network/ui/variables.scss';
+
+.header {
+  display: flex;
+  padding: 14px 0;
+  user-select: none;
+  border-bottom: 1px solid $fiord;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.nav {
+  max-width: 1140px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+
+  @include responsive('tablet', 'phone', 'phone-xs') {
+    justify-content: center;
+  }
+
+  @include responsive('laptop') {
+    padding: 0 15px;
+  }
+}
+
+.link {
+  @include text('body-3');
+  color: $mystic;
+  margin-right: 40px;
+
+  &:hover {
+    color: var(--jungle-green);
+  }
+}
+
+.devcon {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: 18px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  @include responsive('tablet', 'phone', 'phone-xs') {
+    display: none;
+  }
+}
+
+.logo {
+  margin-right: 13px;
+}

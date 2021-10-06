@@ -1,0 +1,169 @@
+@import '~@santiment-network/ui/mixins';
+@import '~@santiment-network/ui/variables';
+
+.wrapper {
+  margin: 0;
+  width: 100%;
+  max-width: none;
+
+  padding: 0 !important;
+}
+
+.top {
+  color: $white;
+  height: 750px;
+  min-height: 100vh;
+  padding: 193px 0 0;
+  background: url('./lines.svg') no-repeat 0 100%,
+    $cloud-burst;
+  position: relative;
+  background-size: contain, cover;
+  display: flex;
+  flex-direction: column;
+
+  @include responsive('tablet', 'phone', 'phone-xs') {
+    height: auto;
+    padding: 193px 15px 370px;
+    background-size: initial;
+    background-position: 15% 107%, 0;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.subtitle {
+  @include text('h4');
+  color: $mystic;
+  max-width: 501px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form {
+  margin-top:32px;
+
+  @include responsive('desktop', 'laptop') {
+    max-width: 395px;
+    margin: 32px auto 0;
+    border: none;
+    border-radius: 4px;
+    background: none;
+    display: flex;
+    position: relative;
+  }
+}
+
+.input {
+  height: 46px;
+  background: transparent !important;
+  border: 1px solid var(--jungle-green) !important;
+  color: var(--white);
+  outline: none;
+  height: 40px;
+  padding-right: 138px;
+}
+
+.btn {
+  height: 40px !important;
+  margin: 30px auto 0;
+  justify-content: center;
+  padding: 6px 25px !important;
+
+}
+
+.bottom {
+  background: $ebony-clay;
+  display: flex;
+  align-items: center;
+
+  @include responsive('laptop') {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  @include responsive('tablet', 'phone', 'phone-xs') {
+    height: auto;
+    padding: 80px 15px;
+  }
+}
+
+.infos {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+
+  @include responsive('tablet', 'phone', 'phone-xs') {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.info {
+  flex: 1;
+  &:first-child {
+    margin-right: 112px;
+
+    @include responsive('tablet', 'phone', 'phone-xs') {
+      margin: 0 0 10px;
+    }
+  }
+
+  &__title {
+    color: $white;
+    @include text('h3');
+  }
+
+  &__text {
+    color: $mystic;
+    margin: 24px 0 0 32px;
+  }
+
+  &__links {
+    margin-top: 32px;
+
+    @include responsive('tablet', 'phone', 'phone-xs') {
+      display: grid;
+      grid-template-columns: 160px auto;
+    }
+  }
+
+  &__link {
+    margin-right: 50px;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    @include responsive('tablet', 'phone', 'phone-xs') {
+      margin: 0;
+      &:first-child {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
+
+.maker {
+  bottom: 14%;
+  left: 15%;
+
+  &__title {
+    color: $jungle-green;
+  }
+}
+
+.eth {
+  bottom: 28%;
+  right: 10%;
+
+  &__title {
+    color: $dodger-blue;
+  }
+}
